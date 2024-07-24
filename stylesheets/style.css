@@ -1,0 +1,44 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.app {
+    background-color: cornflowerblue;
+}
+
+.categoria, .farmaco {
+    text-align: center;
+    font-size: 18px;
+}
+
+.respuestas-contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 95%;
+    margin: 0 auto 2rem auto;
+}
+
+.respuesta {
+    display:grid;
+    place-items: center;
+    min-height: 125px;
+    border: 1px solid rgb(63, 97, 160);
+    padding: 25px;
+    background-color: cadetblue;
+    transition: background-color .3s ease;
+}
+
+.respuesta:hover {
+    background-color: rgb(50, 115, 117);
+}
+
+.no-margin {
+    margin: 0;
+    text-align: center;
+}
