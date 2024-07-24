@@ -8,6 +8,9 @@ h1, h2, h3 {
 }
 
 .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: cornflowerblue;
 }
 
@@ -41,4 +44,25 @@ h1, h2, h3 {
 .no-margin {
     margin: 0;
     text-align: center;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+.alerta {
+    margin: 1rem 0;
+    text-align: center;
+    width: 95%;
+    border: 1px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.alerta.error {
+    background-color: red;  
+}
+
+.alerta.correcto {
+    background-color: green;
 }
